@@ -12,8 +12,9 @@ export default function Home() {
                     <Navbar />
                     {/* DIVS */}
                     <div className='grow h-full pt-20 flex justify-center items-center p-3 gap-3'>
-                        <div className='bg-gray-600 grow h-full'>DIV ON</div>
-                        <div className='bg-red-700 grow h-full '>DIV TWO</div>
+                        <div className='bg-gray-600 grow h-full text-white p-4'>
+                            <p>PARAGRAPH HERE</p>
+                        </div>
                     </div>
                 </div>
             </div>
