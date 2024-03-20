@@ -11,13 +11,11 @@ export default function Dashboard() {
                 <Header heading={"DeepScore Dashboard"} />
                 <div className='grow flex justify-start items-center bg-gray-900'>
                     <Navbar />
-                </div>
-                    <div class="container mx-auto p-24 m-5">
-                        <div class="flex">
-                            <div class="w-1/2 bg-green-500 text-white p-4">
+                    <div className='grow h-full pt-20 flex justify-center items-center p-3 gap-3'>
+                        <div className='bg-green-500 grow h-full text-white p-4'>
                             Chart goes here!
                         </div>
-                        <div class="w-1/2 bg-green-400 p-4 col-span-10">
+                        <div className='bg-green-500 grow h-full text-white p-4'>
                             Form goes here!
                         </div>
                     </div>
