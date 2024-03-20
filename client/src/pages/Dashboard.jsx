@@ -1,11 +1,18 @@
-import { useContext } from "react"
-import { UserContext } from "../../context/userContext"
+import { useContext } from "react";
+import { UserContext } from "../../context/userContext";
+import Navbar from "../components/Navbar";
+import Header from "../components/Header";
 
 export default function Dashboard() {
-  const {user} = useContext(UserContext)
+    const { user } = useContext(UserContext);
     return (
-      <div className='bg-gray-800 flex justify-center items-center h-16 w-full fixed top-0'>
-        <h1 className="text-3xl text-white font-bold mb-4 text-center rounded-lg"> DeepScore Dashboard </h1>
-      </div>
-  )
+        <>
+            <div className='h-screen w-screen flex'>
+                <Header heading={"DeepScore Dashboard"} />
+                <div className='grow flex justify-start items-center bg-gray-900'>
+                    <Navbar />
+                </div>
+            </div>
+        </>
+    );
 }
