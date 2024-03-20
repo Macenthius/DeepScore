@@ -12,10 +12,10 @@ export default function Dashboard() {
                 <div className='grow flex justify-start items-center bg-gray-900'>
                     <Navbar />
                     <div className='grow h-full pt-20 flex justify-center items-center p-3 gap-3'>
-                        <div className='bg-green-500 grow h-full text-white p-4'>
+                        <div className='bg-white grow h-full text-black p-4'>
                             Chart goes here!
                         </div>
-                        <div className='bg-green-500 grow h-full text-white p-4'>
+                        <div className='bg-white grow h-full text-black p-4'>
                             Form goes here!
                         </div>
                     </div>
