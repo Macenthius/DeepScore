@@ -17,7 +17,7 @@ const Form = () => {
         return;
       }
       // Make HTTP POST request to submit form data to server
-      await axios.post('http://localhost:8000/submit-form', data);
+      await axios.post('http://localhost:8000/forms/submit-form', data);
       // Reset the form after successful submission
       reset();
       // Show success toast
