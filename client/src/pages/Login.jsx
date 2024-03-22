@@ -21,7 +21,7 @@ export default function Login() {
         const { email, password } = data;
         try {
             // Sending login request to server
-            const { data } = await axios.post("/login", {
+            const { data } = await axios.post("http://localhost:8000/auth/login", {
                 email,
                 password,
             });
