@@ -13,7 +13,12 @@ export default function Home() {
                     {/* DIVS */}
                     <div className='grow h-full pt-20 flex justify-center items-center p-3 gap-3'>
                         <div className='bg-gray-600 grow h-full text-white p-4'>
-                            <p>PARAGRAPH HERE</p>
+                            <p className=" text-2xl">
+                                DeepScore, A Project by Divij Kulkarni <br></br>
+                                Join Us Today! <br></br>
+                                <br></br>
+                                DeepScore stands as a beacon of innovation in the realm of academic advancement, meticulously crafted by the visionary mind of Divij Kulkarni. This groundbreaking project serves as a quintessential aide, ushering students into a new era of scholastic excellence. Central to its brilliance is DeepScore's ingenious methodology, which intricately captures and catalogues students' academic scores across diverse subjects and assessments. Through its astute data analysis algorithms, DeepScore not only curates this wealth of information but also transforms it into an immersive experience of discovery and self-awareness.
+                            </p>
                         </div>
                     </div>
                 </div>
